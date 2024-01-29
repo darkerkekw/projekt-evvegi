@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header, nav, section, footer {
+    margin: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #444;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 97.5%;
+}
+.ul
+{
+    color: black;
+}
+.logo
+{
+    height: 30px;
+    width: 30px;
+}
+.logo2
+{
+    height: 100px;
+    width: 200px;
+}
+.deepf
+{
+    height: 50px;
+}
+.container1 .card .icon {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background: linear-gradient();
+
+}
+
+.container1 .card .icon .fa {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-size: 10px;
+
+    color: #fff;
+
+}
+
+.container1 .card .slide {
+
+    width: 200px;
+
+    height: 250px;
+
+    transition: 0.5s;
+
+}
+
+.container1 .card .slide.slide1 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 1;
+
+    transition: .7s;
+
+    transform: translateY(100px);
+
+}
+
+.container1 .card:hover .slide.slide1{
+
+    transform: translateY(0px);
+
+}
+
+.container1 .card .slide.slide2 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    transition: .8s;
+
+    transform: translateY(-100px);
+
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+
+}
+
+.container1 .card:hover .slide.slide2{
+
+    transform: translateY(0);
+
+}
+
+.container1 .card .slide.slide2::after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 20px;
+
+    height: 4px;
+
+    bottom: 15px;
+
+    left: 50%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background: black;
+
+}
+
+.container1 .card .slide.slide2 .content p {
+
+    margin: 0;
+
+    padding: 0;
+
+    text-align: center;
+
+    color: black;
+
+}
+
+.container1 .card .slide.slide2 .content h3 {
+
+    margin: 0 0 10px 0;
+
+    padding: 0;
+
+    font-size: 24px;
+
+    text-align: center;
+
+    color: black;
+
+}
+.logo
+{
+    height: 60px;
+    width: 60px;
+}
+.kep
+{
+    width: 200px;
+
+    height: 300px;
+}
+.fegyver1
+{
+    height: 60px;
+    width: 160px;
+}
+.container1
+{
+    width: 200px;
+
+    height: 100px;
+
+    float: left;
+
+}
