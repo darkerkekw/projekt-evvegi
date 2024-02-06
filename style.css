@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin: 0;
     padding: 0;
     
@@ -17,7 +17,7 @@ header {
 }
 
 nav {
-    background-color: #444;
+    background-color: black;
     padding: 1em;
 }
 
@@ -43,7 +43,7 @@ section h2 {
 }
 
 footer {
-    background-color: #333;
+    background-color: black;
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -203,7 +203,7 @@ footer {
 
     padding: 0;
 
-    font-size: 24px;
+    font-size: 15px;
 
     text-align: center;
 
@@ -234,4 +234,16 @@ footer {
 
     float: left;
 
+    color: white;
+
+}
+.gadget
+{
+    height: 60px;
+    width: 120px;
+}
+.gadget1
+{
+    height: 60px;
+    width: 160px;
 }
